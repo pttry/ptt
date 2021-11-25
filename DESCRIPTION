@@ -7,3 +7,5 @@ Description: Meta pacakge for working with R in PTT. Install and attach needed p
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    rstudio.prefs
