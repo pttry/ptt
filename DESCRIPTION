@@ -7,5 +7,19 @@ Description: Meta pacakge for working with R in PTT. Install and attach needed p
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+Imports:
+  tidyverse,
+  devtools,
+  ggptt,
+  pttrobo,
+  statfitools,
+  pttdatahaku,
+  statficlassifications
+Remotes:
+    github::pttry/pttrobo
+    github::pttry/ggptt
+    github::pttry/pttdatahaku
+    github::pttry/statfitools
 Suggests: 
     rstudio.prefs
+RoxygenNote: 7.1.2
