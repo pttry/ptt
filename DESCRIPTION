@@ -16,9 +16,9 @@ Imports:
   pttdatahaku,
   statficlassifications
 Remotes:
-    github::pttry/pttrobo
-    github::pttry/ggptt
-    github::pttry/pttdatahaku
+    github::pttry/pttrobo,
+    github::pttry/ggptt,
+    github::pttry/pttdatahaku,
     github::pttry/statfitools
 Suggests: 
     rstudio.prefs
