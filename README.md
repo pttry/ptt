@@ -10,7 +10,10 @@ Paketti ainoastaan lataa tarvittavat erilliset paketit ja on alusta ohjeille.
 
 Ladattavat paketit ovat:
 
+- tidyverse,
+- ggptt
 - pttrobo
+- pttdatahaku
 
 ## Asennus
 

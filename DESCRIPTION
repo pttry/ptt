@@ -1,25 +1,27 @@
 Package: ptt
 Type: Package
 Title: PTT meta package
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person("Janne", "Huovari", email = "janne.huovari@ptt.fi", role = c("aut", "cre")))
 Description: Meta pacakge for working with R in PTT. Install and attach needed packages.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Imports:
+Depends:
   tidyverse,
-  devtools,
   ggptt,
   pttrobo,
+  pttdatahaku
+Imports:
+  devtools,
   statfitools,
-  pttdatahaku,
   statficlassifications
 Remotes:
     github::pttry/pttrobo,
     github::pttry/ggptt,
     github::pttry/pttdatahaku,
-    github::pttry/statfitools
+    github::pttry/statfitools,
+    github::pttry/statficlassifications
 Suggests: 
     rstudio.prefs
 RoxygenNote: 7.1.2
