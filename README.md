@@ -24,12 +24,12 @@ You can install the development version of ptt from [GitHub](https://github.com/
 devtools::install_github("pttry/ptt")
 ```
 
-## Ohjeet
+## Ohjeet R:n ja ptt-pakettien käyttöönottoon
 
 ### Asennus ja asetukset
 
 1. Lataa ja asenna R ja Rstudio: https://www.rstudio.com/products/rstudio/download/#download
-2. Hae .Rprofile tiedosto teamsista (Pellervon taloustutkimus/Koulutus/R/R-apu) ja tallenna se oman koneen Tiedostot kansioon.
+2. Hae .Rprofile-tiedosto teamsista (Pellervon taloustutkimus/Koulutus/R/R-apu) ja tallenna se oman koneen Tiedostot kansioon. HUOM! tallennus yrittää poistaa pisteen tiedoston nimen edestä. Se täytyy lisätä.
    Se sisältää sisäänpääsykoodin robonomistin palvelimeen, joten sitä ei pidä jakaa
    ulkopuolisille. Jos sinulla on jo oma .Rprofile tiedosto voit lisätä sinne mallitiedostosta robonomist.server ja robonomist.access.token tiedot.
 3. Asenna tämä paketti: `install.packages("devtools"); devtools::install_github("pttry/ptt", dependencies = TRUE)`. Asennus valittaa Rtools-ohjelman puutteesta, mutta sitä ei tarvita välttämättä.
@@ -46,3 +46,6 @@ devtools::install_github("pttry/ptt")
    )
 ``` 
 
+## robonomistin käyttö PTT:llä
+
+Ohjeita: https://pttry.github.io/pttrobo/
