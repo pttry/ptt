@@ -32,7 +32,7 @@ devtools::install_github("pttry/ptt")
 2. Hae .Rprofile tiedosto teamsista (Pellervon taloustutkimus/Koulutus/R/R-apu) ja tallenna se oman koneen Tiedostot kansioon.
    Se sisältää sisäänpääsykoodin robonomistin palvelimeen, joten sitä ei pidä jakaa
    ulkopuolisille. Jos sinulla on jo oma .Rprofile tiedosto voit lisätä sinne mallitiedostosta robonomist.server ja robonomist.access.token tiedot.
-3. Asenna tämä paketti: `install.packages("devtools"); devtools::install_github("pttry/ptt", dependencies = TRUE)`
+3. Asenna tämä paketti: `install.packages("devtools"); devtools::install_github("pttry/ptt", dependencies = TRUE)`. Asennus valittaa Rtools-ohjelman puutteesta, mutta sitä ei tarvita välttämättä.
 4. Muuta Rstudio asetukset ajamalla seuraava koodi R:ssä:
 
 
