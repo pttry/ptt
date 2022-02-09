@@ -15,14 +15,6 @@ Ladattavat paketit ovat:
 - pttrobo
 - pttdatahaku
 
-## Asennus
-
-You can install the development version of ptt from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("pttry/ptt")
-```
 
 ## Ohjeet R:n ja ptt-pakettien käyttöönottoon
 
