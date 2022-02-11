@@ -37,6 +37,7 @@ Ladattavat paketit ovat:
       default_encoding = "UTF-8"
    )
 ``` 
+5. Käynnistä Rstudio uudelleen.
 
 ## robonomistin käyttö PTT:llä
 
