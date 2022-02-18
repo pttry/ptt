@@ -42,3 +42,19 @@ Ladattavat paketit ovat:
 ## robonomistin käyttö PTT:llä
 
 Ohjeita: https://pttry.github.io/pttrobo/
+
+## git ja githubin käyttö
+
+Asennus ja käyttöön otto:
+1. Asenna git koneelle: https://git-scm.com/download/win
+2. Rstudiossa: Tools -> Global options..-> Git/SVN ja raksi ruutuun enable. Polku git:iin pitäisi olla ruudussa alla.
+3. `install.packages(c("usethis", "gitcreds"))`
+4. `usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")`
+5. `usethis::create_github_token()`
+6. Tässä välissä kysyy salasanaa selaimessa
+7. `gitcreds::gitcreds_set()`
+8. `credentials::set_github_pat()`
+
+Projektin tuominen githubista:
+1. File -> New project -> Version control -> Git
+2. Lisää url githubista.
