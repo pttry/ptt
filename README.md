@@ -34,7 +34,8 @@ Ladattavat paketit ovat:
       save_workspace = "never",
       load_workspace = FALSE,
       rainbow_parentheses = TRUE,
-      default_encoding = "UTF-8"
+      default_encoding = "UTF-8",
+      insert_native_pipe_operator = TRUE
    )
 ``` 
 5. Käynnistä Rstudio uudelleen.
