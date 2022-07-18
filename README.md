@@ -53,8 +53,8 @@ Asennus ja käyttöön otto:
 4. `usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")`
 5. `usethis::create_github_token()`
 6. Tässä välissä kysyy salasanaa selaimessa
-7. `gitcreds::gitcreds_set()`
 8. `credentials::set_github_pat()`
+9. Käynnistä R uudelleen. Voi testata: `usethis::git_sitrep()`
 
 Projektin tuominen githubista:
 1. File -> New project -> Version control -> Git
