@@ -55,7 +55,7 @@ Asennus ja käyttöön otto:
    git tarvii access tokenin, jotta se voi kommunikoida githubin kanssa (Enemmän tietoa: https://happygitwithr.com/connect-intro.html)
 5. `usethis::create_github_token()`
 6. Tässä välissä avautuu selain ja kysytään githubin salasanaa ja pyydetään tietoja tokenin luomiseen. Note kohtaan esim mille tietokoneelle luot tokenin. Expiration on erääntymispäivä. Suositus on 30, mutta voi sen antaa pidemmäksikin, ikuista ei kuitenkaan kannata luoda. Token pitää luoda aina uudelleen erääntymispäivän jälkeen. Scope kannataa jättää oletusasetuksiin. Generate token avaan sivu, jolta tokenin voi kopioida. Jätä sivu auki.
-8. `gitcreds::gitcreds_set()` kysyy uutta salasanaa tai tokenia ja kopio siihen uusi luotu token.
+8. `gitcreds::gitcreds_set()` kysyy uutta salasanaa tai tokenia. Kopioi siihen uusi luotu token sivulta.
 9. Käynnistä R uudelleen. Voi testata: `usethis::git_sitrep()`
 
 Projektin tuominen githubista:
