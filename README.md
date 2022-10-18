@@ -50,10 +50,12 @@ Asennus ja käyttöön otto:
 1. Asenna git koneelle: https://git-scm.com/download/win
 2. Rstudiossa: Tools -> Global options..-> Git/SVN ja raksi ruutuun enable. Polku git:iin pitäisi olla ruudussa alla.
 3. `install.packages(c("usethis", "gitcreds"))`
+   Omien tietojen antaminen git:lle:
 4. `usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")`
+   git tarvii access tokenin, jotta se voi kommunikoida githubin kanssa (Enemmän tietoa: https://happygitwithr.com/connect-intro.html)
 5. `usethis::create_github_token()`
-6. Tässä välissä kysyy salasanaa selaimessa
-8. `credentials::set_github_pat()`
+6. Tässä välissä avautuu selain ja kysytään githubin salasanaa ja pyydetään tietoja tokenin luomiseen. Note kohtaan esim mille tietokoneelle luot tokenin. Expiration on erääntymispäivä. Suositus on 30, mutta voi sen antaa pidemmäksikin, ikuista ei kuitenkaan kannata luoda. Token pitää luoda aina uudelleen erääntymispäivän jälkeen. Scope kannataa jättää oletusasetuksiin. Generate token avaan sivu, jolta tokenin voi kopioida. Jätä sivu auki.
+8. `gitcreds::gitcreds_set()` kysyy uutta salasanaa tai tokenia ja kopio siihen uusi luotu token.
 9. Käynnistä R uudelleen. Voi testata: `usethis::git_sitrep()`
 
 Projektin tuominen githubista:
