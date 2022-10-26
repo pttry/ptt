@@ -47,6 +47,8 @@ Ohjeita: https://pttry.github.io/pttrobo/
 ## git ja githubin käyttö
 
 Asennus ja käyttöön otto:
+1. Luo tunnukset githubiin: https://github.com/ (sign up). 
+1. Pyydä Pekalta pttry-jäsenyys github:iin.
 1. Asenna git koneelle: https://git-scm.com/download/win
 2. Rstudiossa: Tools -> Global options..-> Git/SVN ja raksi ruutuun enable. Polku git:iin pitäisi olla ruudussa alla.
 3. `install.packages(c("usethis", "gitcreds"))`
