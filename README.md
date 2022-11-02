@@ -63,3 +63,10 @@ Asennus ja käyttöön otto:
 Projektin tuominen githubista:
 1. File -> New project -> Version control -> Git
 2. Lisää url githubista.
+
+
+## Pakettien päivitys
+
+update.packages()
+
+remotes::update_packages()
