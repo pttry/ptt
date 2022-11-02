@@ -67,6 +67,15 @@ Projektin tuominen githubista:
 
 ## Pakettien päivitys
 
-update.packages()
+Päivitä R ja paketit tasaisin väliajoin.
 
-remotes::update_packages()
+Julkaistut paketit päivitettään:
+
+`update.packages()`
+
+PTT omat ja robonomist paketit päivitetään:
+
+`remotes::update_packages()`
+
+(Saattaa valittaa bit rate rajoituksesta. Kirjaudu git:iin ohjeiden mukaan. Saattaa edelleen valittaa, kokeile: `Sys.setenv(GITHUB_PAT = gitcreds::gitcreds_get(use_cache = FALSE)$password)` ja sitten päivitä. )
+
