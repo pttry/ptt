@@ -21,7 +21,7 @@ Ladattavat paketit ovat:
 ### Asennus ja asetukset
 
 1. Lataa ja asenna R ja Rstudio: https://www.rstudio.com/products/rstudio/download/#download
-2. Hae .Renviron-tiedosto teamsista (Pellervon taloustutkimus/Koulutus/R/R-apu) ja tallenna se oman koneen Tiedostot kansioon. HUOM! tallennus yrittää poistaa pisteen tiedoston nimen edestä. Se täytyy lisätä.
+2. Hae .Renviron-tiedosto teamsista (Pellervon taloustutkimus/General/Oppaat/Ohjelmistot/R/Set-up files) ja tallenna se oman koneen Tiedostot kansioon. HUOM! tallennus yrittää poistaa pisteen tiedoston nimen edestä. Se täytyy lisätä.
    Se sisältää sisäänpääsykoodin robonomistin palvelimeen, joten sitä ei pidä jakaa
    ulkopuolisille. Jos sinulla on jo oma .Renviron tiedosto voit lisätä sinne mallitiedostosta ROBONOMIST_SERVER ja ROBONOMIST_ACCESS_TOKEN tiedot.
 3. Asenna tämä paketti: `install.packages("devtools"); devtools::install_github("pttry/ptt", dependencies = TRUE)`. Asennus valittaa Rtools-ohjelman puutteesta, mutta sitä ei tarvita välttämättä.
